@@ -13,7 +13,7 @@ class Star:
         self.Fy = y
         self.R = R
         self.color = color
-        self.image = image
+        self.image = None
     """Тип данных, описывающий звезду.
     Содержит массу, координаты, скорость звезды,
     а также визуальный радиус звезды в пикселах и её цвет.
@@ -31,7 +31,7 @@ class Planet:
         self.Fy = y
         self.R = R
         self.color = color
-        self.image = image
+        self.image = None
 
     """Тип данных, описывающий планету.
     Содержит массу, координаты, скорость планеты,
