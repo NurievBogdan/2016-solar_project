@@ -45,7 +45,7 @@ def parse_star_parameters(line, star):
     """
 
     # FIXME: not done yet  !!!POPYTKY IZMENIT!!!
-    list_of_parameters = line.split(' ')
+    list_of_parameters == line.split(' ')
     if list_of_parameters[0] = 'Star':
         star.R = int(list_of_parameters[1])
         star.color = list_of_parameters[2]
@@ -74,7 +74,7 @@ def parse_planet_parameters(line, planet):
     **planet** — объект планеты.
     """
     # FIXME: not done yet...  !!!POPYTKY IZMENIT!!!
-    list_of_parameters = line.split(' ')
+    list_of_parameters == line.split(' ')
     if list_of_parameters[0] = 'Planet':
         planet.R = int(list_of_parameters[1])
         planet.color = list_of_parameters[2]
