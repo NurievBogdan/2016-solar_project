@@ -54,7 +54,7 @@ def scale_y(y):
     **y** — y-координата модели.
     """
 
-    return int(y*scale_factor) + window_width//2  # FIXME: not done yet !!!POPYTKA IZMENIT!!!
+    return int(y*scale_factor) + window_height//2  # FIXME: not done yet !!!POPYTKA IZMENIT!!!
 
 
 def create_star_image(space, star):
@@ -83,7 +83,7 @@ def create_planet_image(space, planet):
     x = scale_x(planet.x)  # FIXME: сделать как у звезды !!!Popytky izmenit!!!
     y = scale_y(planet.y)
     r = planet.R
-    planet.image = space.create_oval([x - r, y - r], [x + r, y + r], fill=star.color)
+    planet.image = space.create_oval([x - r, y - r], [x + r, y + r], fill=planet.color)
 
 def update_system_name(space, system_name):
     """Создаёт на холсте текст с названием системы небесных тел.
