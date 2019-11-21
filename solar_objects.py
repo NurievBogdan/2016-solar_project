@@ -3,34 +3,35 @@
 
 
 class Star:
-    def __init__(self, type, m, x, y, Vx, Vy, Fx, Fy, R, color, image):
-        self.x = x
-        self.type = type
-        self.y = y
-        self.Vx = x
-        self.Vy = y
-        self.Fx = x
-        self.Fy = y
-        self.R = R
-        self.color = color
-        self.image = None
-    """Тип данных, описывающий звезду.
-    Содержит массу, координаты, скорость звезды,
-    а также визуальный радиус звезды в пикселах и её цвет.
-    """
+	def __init__(self):
+		self.x = 0
+		self.type = 'Star'
+		self.y = 0
+		self.Vx = 0
+		self.Vy = 0
+		self.Fx = 0
+		self.Fy = 0
+		self.R = 0
+		self.color = None
+		self.image = None
+    
+	"""Тип данных, описывающий звезду.
+	Содержит массу, координаты, скорость звезды,
+	а также визуальный радиус звезды в пикселах и её цвет.
+	"""
 
 
 class Planet:
-    def __init__(self, type, m, x, y, Vx, Vy, Fx, Fy, R, color, image):
-        self.x = x
-        self.type = type
-        self.y = y
-        self.Vx = x
-        self.Vy = y
-        self.Fx = x
-        self.Fy = y
-        self.R = R
-        self.color = color
+    def __init__(self):
+        self.x = 0
+        self.type = 'Planet'
+        self.y = 0
+        self.Vx = 0
+        self.Vy = 0
+        self.Fx = 0
+        self.Fy = 0
+        self.R = 0
+        self.color = None
         self.image = None
 
     """Тип данных, описывающий планету.
