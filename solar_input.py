@@ -47,13 +47,17 @@ def parse_star_parameters(line, star):
     # FIXME: not done yet  !!!POPYTKY IZMENIT!!!
     list_of_parameters = line.split(' ')
     if list_of_parameters[0] == 'Star':
+<<<<<<< HEAD
         star.R = int(list_of_parameters[1])
+=======
+        star.R = float(list_of_parameters[1])
+>>>>>>> 284b6d27588fa13b3993fd4f8bf8ff1be333c314
         star.color = list_of_parameters[2]
-        star.m = int(list_of_parameters[3])
-        star.x = int(list_of_parameters[4])
-        star.y = int(list_of_parameters[5])
-        star.Vx = int(list_of_parameters[6])
-        star.Vy = int(list_of_parameters[7])
+        star.m = float(list_of_parameters[3])
+        star.x = float(list_of_parameters[4])
+        star.y = float(list_of_parameters[5])
+        star.Vx = float(list_of_parameters[6])
+        star.Vy = float(list_of_parameters[7])
     else:
         pass
 
@@ -76,13 +80,17 @@ def parse_planet_parameters(line, planet):
     # FIXME: not done yet...  !!!POPYTKY IZMENIT!!!
     list_of_parameters = line.split(' ')
     if list_of_parameters[0] == 'Planet':
+<<<<<<< HEAD
         planet.R = int(list_of_parameters[1])
+=======
+        planet.R = float(list_of_parameters[1])
+>>>>>>> 284b6d27588fa13b3993fd4f8bf8ff1be333c314
         planet.color = list_of_parameters[2]
-        planet.m = int(list_of_parameters[3])
-        planet.x = int(list_of_parameters[4])
-        planet.y = int(list_of_parameters[5])
-        planet.Vx = int(list_of_parameters[6])
-        planet.Vy = int(list_of_parameters[7])
+        planet.m = float(list_of_parameters[3])
+        planet.x = float(list_of_parameters[4])
+        planet.y = float(list_of_parameters[5])
+        planet.Vx = float(list_of_parameters[6])
+        planet.Vy = float(list_of_parameters[7])
     else:
         pass
         
